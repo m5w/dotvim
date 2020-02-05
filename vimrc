@@ -198,7 +198,6 @@ if empty(glob('~/.vim/autoload/plug.vim'))
     "\ 
     "\   [. . .] If the server reports that the requested page has moved to a different location [. . .] this option will make curl redo the request on the new place.
     "\   [. . . .]
-    "\
     "\ 
     \ --location
     \ --create-dirs --output
