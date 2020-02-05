@@ -1,0 +1,17 @@
+# Vim swap files
+*.swp
+
+/autoload
+/spell
+
+# # vim-plug
+/plugged
+
+# # Plugins
+#
+# {
+
+# Black
+/black
+
+# }
