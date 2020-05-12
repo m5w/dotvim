@@ -227,7 +227,7 @@ set lazyredraw
 " {
 
 set termguicolors
-set background=dark
+set background=light
 let g:gruvbox_italic = 0
 
 " Display all "undercurl" text as "underline" text.
@@ -481,3 +481,5 @@ xnoremap gj j
 set backspace=indent,eol,start
 
 set mouse=a
+
+let g:black_linelength = 126
