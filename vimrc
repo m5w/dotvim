@@ -53,6 +53,8 @@ set expandtab
 "
 " {
 
+packadd! matchit
+
 " Make a shell command with the arguments `arguments`.
 "
 " Escape each of the arguments.
@@ -149,6 +151,7 @@ function! s:Plug()
   Plug 'psf/black'
     \,
     \ {
+      \ 'branch': 'stable',
       \ 'do': function('Install_Black'),
     \ }
   Plug 'nvie/vim-flake8'
@@ -482,4 +485,4 @@ set backspace=indent,eol,start
 
 set mouse=a
 
-let g:black_linelength = 126
+let g:black_linelength = 116
